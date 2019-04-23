@@ -57,3 +57,10 @@ body {
     overflow: hidden;
 
 }
+
+#profilepic > IMG {
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
