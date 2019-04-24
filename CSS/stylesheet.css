@@ -55,12 +55,36 @@ body {
     left: 20px;
     top: 10px;
     overflow: hidden;
+    border: 1px solid white;
+    float: left;
 
 }
 
 #profilepic > IMG {
     height: 100%;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+}
+
+#name {
+    position: relative;
+    float: right;
+    color: lightgray;
+    right: 33%;
+    top: 8%;
+    text-align: center;
+    
+}
+
+#aboutme {
+    position:absolute;
+    top: 55%;
+    right: 16%;
+    color: lightgray;
+    text-align: left;
+    margin-left: 15%;
+    
+}
+
+#aboutme > h3 {
+    text-decoration: underline;
 }
