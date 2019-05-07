@@ -72,17 +72,17 @@ body {
     right: 33%;
     top: 8%;
     text-align: center;
-    
+
 }
 
 #aboutme {
-    position:absolute;
+    position: absolute;
     top: 55%;
     right: 16%;
     color: lightgray;
     text-align: left;
     margin-left: 15%;
-    
+
 }
 
 #aboutme > h3 {

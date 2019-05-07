@@ -1,8 +1,16 @@
+$primary-color: white
+$secondary-color: lightgrey
+
+=border-radius($radius)
+    -webkit-border-radius: $radius
+    -ms-border-radius: $radius
+    border-radius: $radius
+    
 body
     background: darkgrey
     margin: 0
     font-family: arial
-    
+
 #container
     width:70%
     height:500px
@@ -10,19 +18,21 @@ body
     background:#2d5faf
     position: relative
     padding-top: 20px
-    border-radius: 25px
+    +border-radius(25px)
     margin-left: auto
     margin-right: auto
 
 .socialmedia 
     height: 50px
     width:50px
-    border-radius:25px
+    +border-radius(50px)
     overflow: hidded
     margin-bottom: 5px
     IMG
         height: 100%
+        +border-radius(50px)
         width: 100%
+        +
 
 #socialmediatag
     margin-left: 2%
@@ -31,17 +41,16 @@ body
     float: left
     left: 1070px
     top: 75px
-    
 #profilepic
     height: 200px
     width: 200px
-    border-radius:100px
-    background: white
+    +border-radius(100px)
+    background: $primary-color
     position: relative
     left: 20px
     top: 10px
     overflow: hidden
-    border: 1px solid white
+    border: 1px solid $primary-color
     float: left
     IMG
         height: 100%
@@ -50,7 +59,7 @@ body
 #name
     position: relative
     float: right
-    color: lightgrey
+    color: $secondary-color
     right: 33%
     top: 8%
     text-align: center
@@ -59,7 +68,7 @@ body
     position: absolute
     top: 55%
     right: 16%
-    color: lightgrey
+    color: $secondary-color
     text-align: left
     margin-left: 15%
     h3
